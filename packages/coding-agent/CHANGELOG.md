@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Added transcript scroll mode. Press Ctrl+Up or Ctrl+Down at the prompt to jump between your earlier prompts, and drag across text to copy it. Press Esc, or any key the mode does not use, to return to the prompt with your draft intact.
+
 ### Fixed
 
 - `edit` and `write` no longer refuse handwritten files named `generated.go`, `generated.ts`, `generated.js`, or `generated.py`; these are treated as auto-generated only when their header carries a generated-code marker ([#13138](https://github.com/can1357/oh-my-pi/issues/13138), [#13139](https://github.com/can1357/oh-my-pi/pull/13139) by [@radkawar](https://github.com/radkawar))
